@@ -12,6 +12,10 @@
     "express": "^4.16.4",
     "node-json-transform": "^1.0.19",
     "object-mapper": "^5.0.0",
-    "rss-to-json": "^1.0.4"
+    "request": "^2.88.0",
+    "rss-parser": "^3.7.0",
+    "rss-to-json": "^1.0.4",
+    "rss-url-parser": "^1.0.0",
+    "xml-js": "^1.6.11"
   }
 }
