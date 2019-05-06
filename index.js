@@ -61,11 +61,7 @@ app.get('/oilprice', function (req, res) {
         }, {
           run: function (val) { return { name: 'oilprice.com' } }, on: "source"
         }
-      ], each: function (item) {
-        // make changes
-        item.iterated = true;
-        return item;
-      }
+      ]
     };
     var result = DataTransform(rss, map).transform();
 
