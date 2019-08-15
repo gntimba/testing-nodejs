@@ -28,8 +28,8 @@ var parseString = require('xml2js').parseString;
 
     axiosTest().then(data => {
         parseString(data, function (err, result) {
-            //let products= result.rss.channel[0].item[0]['g:google_product_category']
-            let products= result.rss.channel[0].item
+            let products= result.rss.channel[0].item[0]['g:description'][0].replace(/<\/?[^>]+(>|$)/g, "")
+           // let products= result.rss.channel[0].item
             console.log(products.length)
             res.json(products)
             
