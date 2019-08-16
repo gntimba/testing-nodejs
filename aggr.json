@@ -1,0 +1,24 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Executive Anvil", 
+  "image": 
+    "https://www.xyz.co.za/ProdImg/Big_215.jpg",
+  "description": "Sleeker than ACME's Classic Anvil, the Executive Anvil is perfect for the business traveler looking for something to drop from a height.",
+  "brand": {
+    "@type": "Thing",
+    "name": "ACME5"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "http://www.buynow.co.za/ProductDescription.aspx?id=4871088",
+    "priceCurrency": "ZAR",
+    "price": "19.99",
+    "availability": "https://schema.org/InStock"
+  }
+}
+<script>
+// if the item is out of  stock change not available to out OutOfStock this is one of the reason it failed last time
+// it must be dynamic
+  
